@@ -40,7 +40,7 @@
 
 ---
 
-## 01. 🛠️ Core Refactoring
+## 01. 🛠️ Code Refactoring
 
 ### 🔍 대상 파일/폴더
 
