@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 19108f0747a95dd40991834a4ebf3ebf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151733
+  packageName: Jelly Merge | Template + Editor
+  packageVersion: 1.4.1
+  assetPath: Assets/Project Files/Game/Shaders/Watermelon Shaders/Editor/RampLitTransparentGUI.cs
+  uploadId: 730034

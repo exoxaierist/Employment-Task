@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e182f7bd6005c3f4b8ae4a41a136378c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151733
+  packageName: Jelly Merge | Template + Editor
+  packageVersion: 1.4.1
+  assetPath: Assets/Project Files/Game/Shaders/Watermelon Shaders/Editor/ToonUnlitGUI.cs
+  uploadId: 730034

@@ -1,0 +1,113 @@
+{
+  "Stage": {
+    "stageIndex": 3,
+    "playingBlocks": [
+      {
+        "center": { "x": 1, "y": 0 },
+        "uniqueIndex": 0,
+        "gimmicks": [
+          {"gimmickType" : "None"}
+        ],
+        "shapes": [
+          { "offset": { "x": 0, "y": 0 } },
+          { "offset": { "x": 1, "y": 0 } },
+          { "offset": { "x": 2, "y": 0 } }
+        ],
+        "colorType": 1
+      },
+      {
+        "center": { "x": 1, "y": 1 },
+        "uniqueIndex": 1,
+        "gimmicks": [
+          {"gimmickType" : "None"}
+        ],
+        "shapes": [
+          { "offset": { "x": 0, "y": 0 } },
+          { "offset": { "x": 1, "y": 0 } },
+          { "offset": { "x": 2, "y": 0 } }
+        ],
+        "colorType": 2
+      },
+      {
+        "center": { "x": 0, "y": 2 },
+        "uniqueIndex": 2,
+        "gimmicks": [
+          {"gimmickType" : "None"}
+        ],
+        "shapes": [
+          { "offset": { "x": 0, "y": 0 } },
+          { "offset": { "x": 1, "y": 0 } },
+          { "offset": { "x": 0, "y": 1 } },
+          { "offset": { "x": 1, "y": 1 } }
+        ],
+        "colorType": 8
+      },
+      {
+        "center": { "x": 3, "y": 2 },
+        "uniqueIndex": 3,
+        "gimmicks": [
+          {"gimmickType" : "None"}
+        ],
+        "shapes": [
+          { "offset": { "x": 0, "y": 0 } },
+          { "offset": { "x": 1, "y": 0 } },
+          { "offset": { "x": 0, "y": 1 } },
+          { "offset": { "x": 1, "y": 1 } }
+        ],
+        "colorType": 5
+      },
+      {
+        "center": { "x": 2, "y": 3 },
+        "uniqueIndex": 4,
+        "gimmicks": [
+          {"gimmickType" : "None"}
+        ],
+        "shapes": [
+          { "offset": { "x": 0, "y": 0 } },
+          { "offset": { "x": 0, "y": 1 } },
+          { "offset": { "x": 0, "y": 2 } }
+        ],
+        "colorType": 7
+      }
+    ],
+    "boardBlocks": [
+      { "x": 0, "y": 0, "colorType": 2, "dataType": 22 },
+      { "x": 1, "y": 0, "colorType": 7, "dataType": 13 },
+      { "x": 2, "y": 0, "colorType": 7, "dataType": 13 },
+      { "x": 3, "y": 0, "colorType": 7, "dataType": 13 },
+      { "x": 4, "y": 0, "colorType": 1, "dataType": 22 },
+      { "x": 0, "y": 1, "colorType": 2, "dataType": 22 },
+      { "x": 1, "y": 1, "colorType": 0, "dataType": 0 },
+      { "x": 2, "y": 1, "colorType": 0, "dataType": 0 },
+      { "x": 3, "y": 1, "colorType": 0, "dataType": 0 },
+      { "x": 4, "y": 1, "colorType": 1, "dataType": 22 },
+      { "x": 0, "y": 2, "colorType": 0, "dataType": 0 },
+      { "x": 1, "y": 2, "colorType": 0, "dataType": 0 },
+      { "x": 2, "y": 2, "colorType": 0, "dataType": 0 },
+      { "x": 3, "y": 2, "colorType": 0, "dataType": 0 },
+      { "x": 4, "y": 2, "colorType": 0, "dataType": 0 },
+      { "x": 0, "y": 3, "colorType": 0, "dataType": 0 },
+      { "x": 1, "y": 3, "colorType": 0, "dataType": 0 },
+      { "x": 2, "y": 3, "colorType": 0, "dataType": 0 },
+      { "x": 3, "y": 3, "colorType": 0, "dataType": 0 },
+      { "x": 4, "y": 3, "colorType": 0, "dataType": 0 },
+      { "x": 0, "y": 4, "colorType": 0, "dataType": 0 },
+      { "x": 1, "y": 4, "colorType": 0, "dataType": 0 },
+      { "x": 2, "y": 4, "colorType": 0, "dataType": 0 },
+      { "x": 3, "y": 4, "colorType": 0, "dataType": 0 },
+      { "x": 4, "y": 4, "colorType": 0, "dataType": 0 },
+      { "x": 0, "y": 5, "colorType": 5, "dataType": 12 },
+      { "x": 1, "y": 5, "colorType": 5, "dataType": 12 },
+      { "x": 2, "y": 5, "colorType": 0, "dataType": 0 },
+      { "x": 3, "y": 5, "colorType": 8, "dataType": 12 },
+      { "x": 4, "y": 5, "colorType": 8, "dataType": 12 }
+    ],
+    "Walls": [
+      { "x": 0, "y": 0, "WallDirection": 2, "length": 1 },
+      { "x": 4, "y": 0, "WallDirection": 2, "length": 1 },
+      { "x": 0, "y": 2, "WallDirection": 3, "length": 4 },
+      { "x": 4, "y": 2, "WallDirection": 4, "length": 4 },
+      { "x": 2, "y": 5, "WallDirection": 1, "length": 1 }
+    ]
+  }
+}

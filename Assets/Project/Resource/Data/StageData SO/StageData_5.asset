@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ae8098bfee64a2b8f539977da18731, type: 3}
+  m_Name: StageData_5
+  m_EditorClassIdentifier: 
+  stageIndex: 5
+  boardBlocks:
+  - x: 0
+    y: 0
+    colorType: 0
+    dataType: 0
+  - x: 1
+    y: 0
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 0
+    colorType: 0
+    dataType: 0
+  - x: 0
+    y: 1
+    colorType: 8
+    dataType: 21
+  - x: 1
+    y: 1
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 1
+    colorType: 0
+    dataType: 0
+  - x: 0
+    y: 2
+    colorType: 3
+    dataType: 21
+  - x: 1
+    y: 2
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 2
+    colorType: 0
+    dataType: 0
+  - x: 0
+    y: 3
+    colorType: 2
+    dataType: 21
+  - x: 1
+    y: 3
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 3
+    colorType: 1
+    dataType: 21
+  - x: 0
+    y: 4
+    colorType: 0
+    dataType: 0
+  - x: 1
+    y: 4
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 4
+    colorType: 7
+    dataType: 21
+  - x: 0
+    y: 5
+    colorType: 0
+    dataType: 0
+  - x: 1
+    y: 5
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 5
+    colorType: 5
+    dataType: 21
+  - x: 0
+    y: 6
+    colorType: 0
+    dataType: 0
+  - x: 1
+    y: 6
+    colorType: 0
+    dataType: 0
+  - x: 2
+    y: 6
+    colorType: 0
+    dataType: 0
+  playingBlocks:
+  - x: 0
+    y: 0
+    colorType: 5
+    center: {x: 0, y: 1}
+    uniqueIndex: 0
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  - x: 0
+    y: 0
+    colorType: 1
+    center: {x: 0, y: 2}
+    uniqueIndex: 1
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  - x: 0
+    y: 0
+    colorType: 7
+    center: {x: 0, y: 3}
+    uniqueIndex: 2
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  - x: 0
+    y: 0
+    colorType: 2
+    center: {x: 0, y: 4}
+    uniqueIndex: 3
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  - x: 0
+    y: 0
+    colorType: 3
+    center: {x: 0, y: 5}
+    uniqueIndex: 4
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  - x: 0
+    y: 0
+    colorType: 8
+    center: {x: 0, y: 6}
+    uniqueIndex: 0
+    shapes:
+    - offset: {x: 0, y: 0}
+    - offset: {x: 1, y: 0}
+    - offset: {x: 2, y: 0}
+    gimmicks:
+    - gimmickType: None
+  Walls:
+  - x: 0
+    y: 0
+    WallDirection: 3
+    length: 1
+  - x: 0
+    y: 0
+    WallDirection: 2
+    length: 3
+  - x: 2
+    y: 0
+    WallDirection: 4
+    length: 3
+  - x: 0
+    y: 4
+    WallDirection: 3
+    length: 3
+  - x: 0
+    y: 6
+    WallDirection: 1
+    length: 3
+  - x: 2
+    y: 6
+    WallDirection: 4
+    length: 1
