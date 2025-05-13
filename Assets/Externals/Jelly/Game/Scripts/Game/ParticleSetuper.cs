@@ -1,6 +1,5 @@
 ﻿#pragma warning disable 0649
 
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,6 +26,17 @@ namespace Watermelon.JellyMerge
             for (int i = 0; i < renderers.Count; i++)
             {
                 renderers[i].material = material;
+            }
+        }
+
+        public void SetColor(Color color)
+        {
+            MaterialPropertyBlock block = new();
+            foreach (var rend in renderers)
+            {
+                rend.GetPropertyBlock(block);
+                block.SetColor("_BaseColor", color);
+                rend.SetPropertyBlock(block);
             }
         }
     }

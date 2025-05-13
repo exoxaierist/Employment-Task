@@ -1,18 +1,16 @@
-
 using System.Collections.Generic;
 
 [System.Serializable]
 public class BoardBlockData : BlockBaseData
 {
-    public List<ColorType> colorType;
-    public List<int> dataType;
+    public List<BoardCondition> conditions;
 }
 
-public enum DestroyWallDirection
+[System.Serializable]
+public struct BoardCondition
 {
-    None = 0,
-    Up = 1,
-    Down = 2,
-    Left = 3,
-    Right = 4
+    public ColorType color;
+    public Direction direction;
+    public float offsetFromCenter;
+    public int totalLength;
 }

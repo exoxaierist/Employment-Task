@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99cb62a05c40c140a40aa131ded05a7, type: 3}
+  m_Name: BoardResource
+  m_EditorClassIdentifier: 
+  wallMaterials:
+  - {fileID: 2100000, guid: fa32569ee2344478ba53aef3981402dd, type: 2}
+  - {fileID: 2100000, guid: 91a2fbf06960544d08ba27a654cb20e8, type: 2}
+  - {fileID: 2100000, guid: d54cd8a83de054915b5f7b0920490131, type: 2}
+  - {fileID: 2100000, guid: 7c15fc6181f4e4e8cb01fd869f73955e, type: 2}
+  - {fileID: 2100000, guid: 7758f52382c8c4b328fab9461a5703fc, type: 2}
+  - {fileID: 2100000, guid: e0dda4fe354bb4bf89eee8a3ed645739, type: 2}
+  - {fileID: 2100000, guid: dff1150a67d644beebb150a962f6be81, type: 2}
+  - {fileID: 2100000, guid: 683cef84734b34ff5b1e565165086156, type: 2}
+  - {fileID: 2100000, guid: b86a90473367d49808b0fad01639f910, type: 2}
+  blockMaterials:
+  - {fileID: 2100000, guid: 9539a791e2d84f241b76730496431b37, type: 2}
+  - {fileID: 2100000, guid: 8513d8cac09c04f37b43b99fd7b1ebe4, type: 2}
+  - {fileID: 2100000, guid: ffb36e49712de45acbea5e0fb9c69dee, type: 2}
+  - {fileID: 2100000, guid: 8c9ab924fabac4912b2059451c5e3213, type: 2}
+  - {fileID: 2100000, guid: 85ba27da62d4542839d8ba809ba73a8d, type: 2}
+  - {fileID: 2100000, guid: 68628aaa39e03457a82d97f7ff100d38, type: 2}
+  - {fileID: 2100000, guid: df796f81d98414506beda08861c78d83, type: 2}
+  - {fileID: 2100000, guid: 3911ad6b37d8e4f01ac79f81fe095ca5, type: 2}
+  - {fileID: 2100000, guid: 16ba0ebe467b6440a9dfb0b23ad0da42, type: 2}
+  blockColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9433962, g: 0.29814878, b: 0.29814878, a: 1}
+  - {r: 0.8773585, g: 0.5993904, b: 0.28555536, a: 1}
+  - {r: 0.8584906, g: 0.778424, b: 0, a: 1}
+  - {r: 0.51775545, g: 0.5345693, b: 0.6132076, a: 1}
+  - {r: 0.5319192, g: 0.36779103, b: 0.8207547, a: 1}
+  - {r: 0.8018868, g: 0.77982557, b: 0.62411, a: 1}
+  - {r: 0.18369527, g: 0.42624077, b: 0.9056604, a: 1}
+  - {r: 0.31990921, g: 0.745283, b: 0.4559131, a: 1}
+  wallColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.6981132, g: 0.31283376, b: 0.31283376, a: 1}
+  - {r: 0.764151, g: 0.5098209, b: 0.16941082, a: 1}
+  - {r: 0.8396226, g: 0.77572125, b: 0.099012084, a: 1}
+  - {r: 0.49132252, g: 0.5226808, b: 0.5754717, a: 1}
+  - {r: 0.49794436, g: 0.35056958, b: 0.735849, a: 1}
+  - {r: 0.6037736, g: 0.57127875, b: 0.4756141, a: 1}
+  - {r: 0.25720897, g: 0.39049786, b: 0.6415094, a: 1}
+  - {r: 0.22160912, g: 0.5660378, b: 0.33458173, a: 1}
